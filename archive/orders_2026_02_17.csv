@@ -1,0 +1,7 @@
+order_id,date,client_name,product,quantity,unit_price
+1001,2026-02-10,La Esquina ,Olive Oil,10,12.5
+1002,2026-02-10,Cafe Central,Flour,25,1.2
+1003,2026-02-11,la esquina,Tomatoes,30,0.8
+1004,2026-02-12,Bistro 21 ,Olive Oil,5,12.5
+1005,2026-02-12,Cafe Central,Sugar,10,0.9
+1006,2026-02-13,LA ESQUINA,Flour,40,1.1

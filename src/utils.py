@@ -25,3 +25,19 @@ def setup_logging(log_dir: str):
         retention="7 days",
         level="INFO",
     )
+
+def get_orders_and_payments(files: list[Path]):
+    orders_file = next((f for f in files if "orders" in f.name), None)
+    payments_file = next((f for f in files if "payments" in f.name), None)
+
+    if not orders_file:
+        raise FileNotFoundError("Orders file not found.")
+
+    if not payments_file:
+        raise FileNotFoundError("Payments file not found.")
+
+    logger.info("Successfully identified input files:")
+    logger.info(f"Orders file: {orders_file.name}")
+    logger.info(f"Payments file: {payments_file.name}")
+
+    return orders_file, payments_file

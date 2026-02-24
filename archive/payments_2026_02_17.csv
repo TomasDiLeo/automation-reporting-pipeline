@@ -1,0 +1,5 @@
+payment_id,date,client,payment_amount
+9001,2026-02-11,LA ESQUINA,100
+9002,2026-02-12,Cafe Central,20
+9003,2026-02-13,Bistro 21,30
+9004,2026-02-14,La Esquina,50
